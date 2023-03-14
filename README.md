@@ -11,7 +11,8 @@ by the card exposed to jack with alsa_out.
 The configuration is done in config.h, by specifying the leading output
 and the following or 'mirror' output:
 
-```C struct pair pairs[] = {
+```C
+struct pair pairs[] = {
 	{"system:playback_1", "q12out:playback_1"},
 	{"system:playback_2", "q12out:playback_2"},
 };
